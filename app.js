@@ -84,7 +84,7 @@ const checkWinner = ()=>{
                 } 
                   
                 //draw
-                if(count===9 && (pos1Val!=pos2Val || pos1Val!=pos3Val || pos1!=pos3Val)){
+                if(count===9){
                     console.log("draw happend")
                     showWinner("Draw");
                 }
